@@ -26,7 +26,7 @@ public class LoginDAO {
 			
 			while(rs.next()){
 				member.setId(rs.getString("USER_ID"));
-				member.setName(rs.getString("NAME"));
+				member.setName(rs.getString("NAME")); //name
 			}
 		}catch(Exception e){
 			System.out.println(e.toString());
