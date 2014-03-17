@@ -25,7 +25,7 @@ public class LoginService {
 		
 		request.setAttribute("member", memberDTO);
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("main.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("ui/common/main.jsp");
 		dispatcher.forward(request, response);
 		
 	}
