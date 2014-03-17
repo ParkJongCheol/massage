@@ -1,4 +1,4 @@
-package com.massage.controller;
+package com.message.controller;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.massage.dao.LoginDAO;
-import com.massage.dto.MemberDTO;
+import com.message.dao.LoginDAO;
+import com.message.dto.MemberDTO;
 import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage;
 
 /**

@@ -1,4 +1,4 @@
-package com.massage.db;
+package com.message.db;
 
 import java.sql.DriverManager;
 import java.sql.Connection;
