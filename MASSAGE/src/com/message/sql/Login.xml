@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="userLogin">
+  <typeAlias alias="member" type="com.message.dto.MemberDTO"/>
+  <select id="login" resultClass="member" parameterClass="java.util.Map">
+    SELECT USER_ID, NAME FROM TB_COM_USERS WHERE USER_ID=#USER_ID#
+  </select>
+</sqlMap>
